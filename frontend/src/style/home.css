@@ -1,0 +1,116 @@
+
+
+.sidebar-home {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: relative;
+    float: right;
+    height: 100%;
+    overflow: auto;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.sidebar-home a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar-home a.active {
+    
+    color: white;
+}
+
+/* .sidebar-home a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+} */
+
+div.content-home {
+    margin-left: 10px;
+    padding: 1px 1px;
+    height: 900px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar-home {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar-home a {float: left;}
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar-home a {
+        text-align: start;
+        float: none;
+    }
+    
+}
+
+.sidebar-home input, textarea{
+    width: 80%;
+   
+    margin: 10px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.add-btn{
+    width: 80%;
+    padding: 0.3rem 1rem;
+  
+    border-radius: 5px;
+    background-color: whitesmoke;
+   
+}
+
+.add-btn:hover{
+  
+    color: whitesmoke;
+    border: 1px whitesmoke solid;
+}
+
+
+/* update button */
+.update-btn{
+    width: 80%;
+    padding: 0.5rem 1rem;
+
+    border-radius: 5px;
+    background-color: yellow;
+  
+}
+
+.update-btn:hover{
+   
+    color: rgb(42, 223, 14);
+    border: 1px whitesmoke solid;
+}
+
+
+.heading-text{
+    color:indigo;
+   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.title-text{
+    color:rgb(100, 51, 136);
+   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.user-text{
+ 
+    font-family: cursive;
+    
+}
+.margin{
+    font-size:xx-small;
+}
